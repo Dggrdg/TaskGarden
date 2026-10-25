@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(228, 238, 238);
+  margin: 0px;
+  font-family: Libre Caslon Condensed;
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0px;
+  }
+}
+
+/* Task Start */
+
+.task {
+  padding: 10px;
+  height: 100vh;
+}
+
+.task nav {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.task header .login_area {
+  display: flex;
+  gap: 20px;
+}
+/* Task End */
+
+/* Login Start */
+
+.login {
+  display: flex;
+  justify-content: end;
+  background-image: url("../assets/ChatGPT\ 圖像\ 2026年10月24日\ 下午06_24_43.png");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.login .login_area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login .button_area .login_button{
+  background-color:rgb(1, 134, 76);
+  border:rgb(228, 238, 238); ;
+}
+
+/* Login End */
