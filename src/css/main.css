@@ -66,6 +66,8 @@ body {
 }
 
 .login .login_area .button_area {
+  display: flex;
+  justify-content: center;
   width: 100%;
   margin: 10px;
 }
